@@ -51,8 +51,10 @@ function App() {
         user={userObj}
         userArr={userArr}
       />
+      <hr />
       <Student />
-      <User name="Moeez" />
+      <hr />
+      <User name="Moeez" /> <hr />
       <Wrapper color="orange">
         <h1>Hello User</h1>
       </Wrapper>
@@ -61,11 +63,13 @@ function App() {
       </Wrapper>
       <Wrapper>
         <h1>Hello React JS</h1>
-      </Wrapper>
+      </Wrapper>{" "}
+      <hr />
       <InputField />
       <Controller />
-      <Skills />
+      <Skills /> <hr />
       <TestComponent />
+      <hr />
       <RadioDropdown />
     </>
   );
