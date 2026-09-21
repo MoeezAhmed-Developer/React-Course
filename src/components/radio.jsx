@@ -12,6 +12,7 @@ function RadioDropdown() {
         name="gender"
         id="male"
         value={"male"}
+        checked={gender == "male"}
         onChange={(evt) => setGender(evt.target.value)}
       />
       <label htmlFor="male">Male</label>
@@ -21,6 +22,7 @@ function RadioDropdown() {
         id="female"
         name="gender"
         value={"female"}
+        checked={gender == "female"}
         onChange={(evt) => setGender(evt.target.value)}
       />
       <label htmlFor="female">Female</label>
