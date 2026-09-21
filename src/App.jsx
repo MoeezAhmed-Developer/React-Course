@@ -12,6 +12,7 @@ import Controller from "./components/Controller";
 import Student from "./components/Student";
 import Skills from "./components/Skills";
 import TestComponent from "./components/Test";
+import RadioDropdown from "./components/radio";
 
 function App() {
   let x = 0;
@@ -65,6 +66,7 @@ function App() {
       <Controller />
       <Skills />
       <TestComponent />
+      <RadioDropdown />
     </>
   );
 }
