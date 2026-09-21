@@ -7,7 +7,7 @@ function Toggle() {
     <div>
       <h2>Toggling</h2>
       <h1>{display ? "Show component" : "Hide component"}</h1>
-      <button onClick={() => setDisplay(!display)}>toggle</button>
+      <button onClick={() => setDisplay(!display)}>Toggle</button>
     </div>
   );
 }
