@@ -11,6 +11,7 @@ import InputField from "./components/InputField";
 import Controller from "./components/Controller";
 import Student from "./components/Student";
 import Skills from "./components/Skills";
+import TestComponent from "./components/Test";
 
 function App() {
   let x = 0;
@@ -63,6 +64,7 @@ function App() {
       <InputField />
       <Controller />
       <Skills />
+      <TestComponent />
     </>
   );
 }
