@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function RadioDropdown() {
-  const [radio, setRadio] = useState("");
+  const [gender, setGender] = useState("female");
   return (
     <div>
       <h1>Handle Radio and Dropdown</h1>
@@ -11,14 +11,21 @@ function RadioDropdown() {
         type="radio"
         name="gender"
         id="male"
-        onChange={(evt) => setRadio(evt.target.value)}
+        value={"male"}
+        onChange={(evt) => setGender(evt.target.value)}
       />
       <label htmlFor="male">Male</label>
 
-      <input type="radio" id="female" name="gender" />
+      <input
+        type="radio"
+        id="female"
+        name="gender"
+        value={"female"}
+        onChange={(evt) => setGender(evt.target.value)}
+      />
       <label htmlFor="female">Female</label>
 
-      <h4>Radio Value: {radio}</h4>
+      <h4>Selected Gender: {gender}</h4>
     </div>
   );
 }
