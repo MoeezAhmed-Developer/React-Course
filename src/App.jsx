@@ -64,7 +64,7 @@ function App() {
       </Wrapper>
       <Wrapper>
         <h1>Hello React JS</h1>
-      </Wrapper>{" "}
+      </Wrapper>
       <hr />
       <InputField />
       <Controller />
