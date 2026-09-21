@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function RadioDropdown() {
+function Radio() {
   const [gender, setGender] = useState("female");
   return (
     <div>
@@ -32,4 +32,4 @@ function RadioDropdown() {
   );
 }
 
-export default RadioDropdown;
+export default Radio;
