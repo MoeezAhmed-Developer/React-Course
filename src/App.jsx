@@ -13,6 +13,7 @@ import Student from "./components/Student";
 import Skills from "./components/Skills";
 import TestComponent from "./components/Test";
 import Radio from "./components/radio";
+import Dropdown from "./components/Dropdown";
 
 function App() {
   let x = 0;
@@ -71,6 +72,7 @@ function App() {
       <TestComponent />
       <hr />
       <Radio />
+      <Dropdown />
     </>
   );
 }
