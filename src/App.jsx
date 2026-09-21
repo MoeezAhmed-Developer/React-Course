@@ -13,6 +13,7 @@ import Student from "./components/Student";
 import Skills from "./components/Skills";
 
 function App() {
+  let x = 0;
   let name = "Moeez";
   let age = 20;
   let email = "react@test.com";
