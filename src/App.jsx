@@ -18,7 +18,7 @@ import Loop from "./components/Loop";
 import CitiesDisplay from "./components/Cities";
 import ReuseLoop from "./components/ReuseLoop";
 import Clock from "./components/Clock";
-import ClockTime from "./components/ClockTime";
+// import ClockTime from "./components/ClockTime";
 import NestedLopp from "./components/NestedLoop";
 import Welcome from "./components/ClassBasedComponent";
 import UseEffectCount from "./components/UseEffectCount";
@@ -34,7 +34,6 @@ import CssModule from "./components/CssModule";
 import StyledComponent from "./components/StyledComponent";
 
 function App() {
-  // let x = 0;
   let name = "Moeez";
   let age = 20;
   let email = "react@test.com";
@@ -49,21 +48,14 @@ function App() {
 
   return (
     <>
-      <Header />
-      <h1>Hello World</h1>
-      <hr />
-      <Todo />
-      <hr />
-      <Operations />
-      <hr />
-      <HandleFruits />
-      <hr />
-      <Count />
-      <hr />
-      <Toggle />
-      <hr />
-      <CountToggle />
-      <hr />
+      <Header /> <hr />
+      <h1>Hello World</h1> <hr />
+      <Todo /> <hr />
+      <Operations /> <hr />
+      <HandleFruits /> <hr />
+      <Count /> <hr />
+      <Toggle /> <hr />
+      <CountToggle /> <hr />
       <PropsJs
         name={name}
         age={age}
@@ -73,16 +65,9 @@ function App() {
       />
       <hr />
       <Student /> <hr />
-      <hr />
-      <User name="Moeez" /> <hr /> <hr />
+      <User name="Moeez" /> <hr />
       <Wrapper color="orange">
         <h1>Hello User</h1>
-      </Wrapper>
-      <Wrapper>
-        <h1>Hello everyone</h1>
-      </Wrapper>
-      <Wrapper>
-        <h1>Hello React JS</h1>
       </Wrapper>
       <hr />
       <InputField /> <hr />
