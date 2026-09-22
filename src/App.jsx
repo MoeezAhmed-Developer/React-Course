@@ -31,6 +31,7 @@ import Random from "./components/Random";
 import ReactCard from "./components/ReactCard";
 import UserProfile from "./components/UserProfile";
 import CssModule from "./components/CssModule";
+import StyledComponent from "./components/StyledComponent";
 
 function App() {
   // let x = 0;
@@ -104,7 +105,8 @@ function App() {
       <Random /> <hr />
       <ReactCard /> <hr />
       <UserProfile /> <hr />
-      <CssModule />
+      <CssModule /> <hr />
+      <StyledComponent /> <hr />
     </>
   );
 }
