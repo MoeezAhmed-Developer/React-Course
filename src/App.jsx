@@ -15,6 +15,7 @@ import TestComponent from "./components/Test";
 import Radio from "./components/radio";
 import Dropdown from "./components/Dropdown";
 import Loop from "./components/Loop";
+import CitiesDisplay from "./components/Cities";
 
 function App() {
   let x = 0;
@@ -76,6 +77,7 @@ function App() {
       <Dropdown />
       <hr />
       <Loop />
+      <CitiesDisplay />
     </>
   );
 }

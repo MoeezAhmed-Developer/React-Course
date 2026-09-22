@@ -6,6 +6,10 @@ function Loop() {
     { name: "Ali", email: "ali@test.com", age: 24, id: 4 },
     { name: "Usman", email: "usman@test.com", age: 23, id: 5 },
     { name: "Hassan", email: "hassan@test.com", age: 25, id: 6 },
+    { name: "Bilal", email: "bilal@test.com", age: 22, id: 7 },
+    { name: "Saad", email: "saad@test.com", age: 26, id: 8 },
+    { name: "Zain", email: "zain@test.com", age: 21, id: 9 },
+    { name: "Danish", email: "danish@test.com", age: 24, id: 10 },
   ];
 
   return (
@@ -34,9 +38,11 @@ function Loop() {
         </tbody>
       </table>
 
-      {userData.map((user, idx) => {
-        return <h4 key={idx}>{user.name}</h4>;
-      })}
+      <div>
+        {userData.map((user, idx) => {
+          return <h4 key={idx}>{user.name}</h4>;
+        })}
+      </div>
     </div>
   );
 }
