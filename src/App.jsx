@@ -28,6 +28,7 @@ import InlineStyle from "./components/InlineStyle";
 import DynamicCondInlineStyle from "./components/DCInlineStyle";
 import ExternalStyle from "./components/ExternalStyle";
 import Random from "./components/Random";
+import ReactCard from "./components/ReactCard";
 
 function App() {
   // let x = 0;
@@ -46,7 +47,7 @@ function App() {
   return (
     <>
       <Header />
-      {/* <h1>Hello World</h1>
+      <h1>Hello World</h1>
       <hr />
       <Todo />
       <hr />
@@ -98,7 +99,8 @@ function App() {
       <InlineStyle /> <hr />
       <DynamicCondInlineStyle /> <hr />
       <ExternalStyle /> <hr />
-      <Random /> <hr /> */}
+      <Random /> <hr />
+      <ReactCard /> <hr />
     </>
   );
 }
