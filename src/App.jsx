@@ -72,7 +72,8 @@ function App() {
       <TestComponent />
       <hr />
       <Radio />
-      <Dropdown /> <hr />
+      <Dropdown />
+      <hr />
     </>
   );
 }
