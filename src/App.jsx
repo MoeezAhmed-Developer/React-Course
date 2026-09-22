@@ -23,6 +23,7 @@ import NestedLopp from "./components/NestedLoop";
 import Welcome from "./components/ClassBasedComponent";
 import UseEffectCount from "./components/UseEffectCount";
 import Header from "./components/Header";
+import PropsUseEffect from "./components/PropsUseEffect";
 
 function App() {
   // let x = 0;
@@ -88,7 +89,8 @@ function App() {
       <Clock /> <hr />
       <NestedLopp /> <hr />
       <Welcome /> <hr />
-      <UseEffectCount />
+      <UseEffectCount /> <hr />
+      <PropsUseEffect /> <hr />
     </>
   );
 }
