@@ -77,9 +77,9 @@ function App() {
       <Radio />
       <Dropdown />
       <hr />
-      <Loop />
-      <CitiesDisplay />
-      <ReuseLoop />
+      <Loop /> <hr />
+      <CitiesDisplay /> <hr />
+      <ReuseLoop /> <hr />
     </>
   );
 }
