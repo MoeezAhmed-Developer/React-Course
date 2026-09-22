@@ -27,6 +27,7 @@ import PropsUseEffect from "./components/PropsUseEffect";
 import InlineStyle from "./components/InlineStyle";
 import DynamicCondInlineStyle from "./components/DCInlineStyle";
 import ExternalStyle from "./components/ExternalStyle";
+import Random from "./components/Random";
 
 function App() {
   // let x = 0;
@@ -97,6 +98,7 @@ function App() {
       <InlineStyle /> <hr />
       <DynamicCondInlineStyle /> <hr />
       <ExternalStyle /> <hr />
+      <Random /> <hr />
     </>
   );
 }
