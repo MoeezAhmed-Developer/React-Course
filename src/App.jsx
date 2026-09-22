@@ -32,6 +32,8 @@ import ReactCard from "./components/ReactCard";
 import UserProfile from "./components/UserProfile";
 import CssModule from "./components/CssModule";
 import StyledComponent from "./components/StyledComponent";
+import BootstrapCss from "./components/BootstrapCss";
+import StaticExample from "./components/Modal";
 
 function App() {
   let name = "Moeez";
@@ -92,6 +94,8 @@ function App() {
       <UserProfile /> <hr />
       <CssModule /> <hr />
       <StyledComponent /> <hr />
+      <BootstrapCss /> <hr />
+      <StaticExample /> <hr />
     </>
   );
 }
