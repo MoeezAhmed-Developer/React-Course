@@ -25,50 +25,6 @@ function NestedLopp() {
       ],
     },
     {
-      name: "Punjab College",
-      city: "Lahore",
-      website: "punjabcollege.com",
-      students: [
-        {
-          name: "Hamza",
-          age: 22,
-          email: "hamza@test.com",
-        },
-        {
-          name: "Ali",
-          age: 20,
-          email: "ali@test.com",
-        },
-        {
-          name: "Usman",
-          age: 21,
-          email: "usman@test.com",
-        },
-      ],
-    },
-    {
-      name: "Roots College",
-      city: "Islamabad",
-      website: "rootscollege.com",
-      students: [
-        {
-          name: "Hasan",
-          age: 19,
-          email: "hasan@test.com",
-        },
-        {
-          name: "Bilal",
-          age: 23,
-          email: "bilal@test.com",
-        },
-        {
-          name: "Zain",
-          age: 20,
-          email: "zain@test.com",
-        },
-      ],
-    },
-    {
       name: "City College",
       city: "Rawalpindi",
       website: "citycollege.com",

@@ -17,6 +17,7 @@ function ClockTime({ color }) {
         borderRadius: "4px",
         width: "300px",
         padding: "10px",
+        marginTop: "10px",
       }}
     >
       <h3>{time.toLocaleTimeString()}</h3>
