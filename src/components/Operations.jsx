@@ -43,7 +43,7 @@ function Operations() {
       <h2>Result is:{operation(50, 10, "+")}</h2>
       <h2>{userObj.email}</h2>
       <h2>{userArr[0]}</h2>
-      <img src={dogImgPath} alt="dog" id="dog" />
+      <img src={dogImgPath} alt="dog" id="dog" className="img" />
     </div>
   );
 }

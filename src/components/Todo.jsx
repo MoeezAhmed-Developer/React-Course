@@ -4,7 +4,7 @@ function Todo() {
   return (
     <div>
       <h1>Muhammad Moeez Todos</h1>
-      <img src={path} alt="Cat" className="photo" />
+      <img src={path} alt="Cat" className="photo img" />
       <ul>
         <li>Invent new traffic lights</li>
         <li>Reharse new movie scene</li>
