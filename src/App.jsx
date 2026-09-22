@@ -29,6 +29,7 @@ import DynamicCondInlineStyle from "./components/DCInlineStyle";
 import ExternalStyle from "./components/ExternalStyle";
 import Random from "./components/Random";
 import ReactCard from "./components/ReactCard";
+import UserProfile from "./components/UserProfile";
 
 function App() {
   // let x = 0;
@@ -101,6 +102,7 @@ function App() {
       <ExternalStyle /> <hr />
       <Random /> <hr />
       <ReactCard /> <hr />
+      <UserProfile />
     </>
   );
 }
