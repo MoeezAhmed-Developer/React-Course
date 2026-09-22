@@ -17,6 +17,8 @@ import Dropdown from "./components/Dropdown";
 import Loop from "./components/Loop";
 import CitiesDisplay from "./components/Cities";
 import ReuseLoop from "./components/ReuseLoop";
+import Clock from "./components/Clock";
+import ClockTime from "./components/ClockTime";
 
 function App() {
   let x = 0;
@@ -80,6 +82,8 @@ function App() {
       <Loop /> <hr />
       <CitiesDisplay /> <hr />
       <ReuseLoop /> <hr />
+      <Clock />
+      {/* <ClockTime /> */}
     </>
   );
 }
