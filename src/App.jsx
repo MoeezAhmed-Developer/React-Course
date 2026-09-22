@@ -65,7 +65,7 @@ function App() {
         userArr={userArr}
       />
       <hr />
-      <Student />
+      <Student /> <hr />
       <hr />
       <User name="Moeez" /> <hr /> <hr />
       <Wrapper color="orange">
@@ -78,8 +78,8 @@ function App() {
         <h1>Hello React JS</h1>
       </Wrapper>
       <hr />
-      <InputField />
-      <Controller />
+      <InputField /> <hr />
+      <Controller /> <hr />
       <Skills /> <hr />
       <TestComponent /> <hr />
       <Radio /> <hr />
