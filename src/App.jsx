@@ -22,6 +22,7 @@ import ClockTime from "./components/ClockTime";
 import NestedLopp from "./components/NestedLoop";
 import Welcome from "./components/ClassBasedComponent";
 import UseEffectCount from "./components/UseEffectCount";
+import Header from "./components/Header";
 
 function App() {
   // let x = 0;
@@ -39,6 +40,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <h1>Hello World</h1>
       <hr />
       <Todo />

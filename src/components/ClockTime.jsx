@@ -12,7 +12,7 @@ function ClockTime({ color }) {
   return (
     <div
       style={{
-        backgroundColor: "#000",
+        backgroundColor: "#001542",
         color: color,
         borderRadius: "4px",
         width: "300px",
