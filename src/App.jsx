@@ -20,6 +20,7 @@ import ReuseLoop from "./components/ReuseLoop";
 import Clock from "./components/Clock";
 import ClockTime from "./components/ClockTime";
 import NestedLopp from "./components/NestedLoop";
+import Welcome from "./components/ClassBasedComponent";
 
 function App() {
   // let x = 0;
@@ -83,6 +84,7 @@ function App() {
       <ReuseLoop /> <hr />
       <Clock /> <hr />
       <NestedLopp /> <hr />
+      <Welcome /> <hr />
     </>
   );
 }
