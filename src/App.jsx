@@ -24,6 +24,7 @@ import Welcome from "./components/ClassBasedComponent";
 import UseEffectCount from "./components/UseEffectCount";
 import Header from "./components/Header";
 import PropsUseEffect from "./components/PropsUseEffect";
+import InlineStyle from "./components/InlineStyle";
 
 function App() {
   // let x = 0;
@@ -91,6 +92,7 @@ function App() {
       <Welcome /> <hr />
       <UseEffectCount /> <hr />
       <PropsUseEffect /> <hr />
+      <InlineStyle /> <hr />
     </>
   );
 }
