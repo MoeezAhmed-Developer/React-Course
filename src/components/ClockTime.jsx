@@ -1,4 +1,14 @@
+import { useEffect, useState } from "react";
+
 function ClockTime({ color }) {
+  const [time, setTime] = useState(new Date());
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTime(new Date());
+    }, 1000);
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <div
       style={{
@@ -9,7 +19,7 @@ function ClockTime({ color }) {
         padding: "10px",
       }}
     >
-      <h3>{new Date().toLocaleTimeString()}</h3>
+      <h3>{time.toLocaleTimeString()}</h3>
     </div>
   );
 }
