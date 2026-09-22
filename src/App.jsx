@@ -14,6 +14,7 @@ import Skills from "./components/Skills";
 import TestComponent from "./components/Test";
 import Radio from "./components/radio";
 import Dropdown from "./components/Dropdown";
+import Loop from "./components/Loop";
 
 function App() {
   let x = 0;
@@ -74,6 +75,7 @@ function App() {
       <Radio />
       <Dropdown />
       <hr />
+      <Loop />
     </>
   );
 }
