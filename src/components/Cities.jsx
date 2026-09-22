@@ -51,9 +51,9 @@ function CitiesDisplay() {
           </tr>
         </thead>
         <tbody>
-          {cities.map((city) => {
+          {cities.map((city, idx) => {
             return (
-              <tr>
+              <tr key={idx}>
                 <td>{city.name}</td>
                 <td>{city.famousFor}</td>
                 <td>{city.province}</td>

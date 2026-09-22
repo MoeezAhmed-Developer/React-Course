@@ -16,6 +16,7 @@ import Radio from "./components/radio";
 import Dropdown from "./components/Dropdown";
 import Loop from "./components/Loop";
 import CitiesDisplay from "./components/Cities";
+import ReuseLoop from "./components/ReuseLoop";
 
 function App() {
   let x = 0;
@@ -78,6 +79,7 @@ function App() {
       <hr />
       <Loop />
       <CitiesDisplay />
+      <ReuseLoop />
     </>
   );
 }
