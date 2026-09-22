@@ -1,12 +1,13 @@
 function TestComponent() {
   return (
     <div>
-      <h1>Test Component</h1>
+      <h1>Build Your Digital Presence with BulandiHub</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, aperiam
-        repellat. Optio ut minus mollitia vero quos praesentium quas assumenda!
+        We create modern, responsive, and high-performing websites that help
+        businesses establish a strong online presence and turn visitors into
+        customers.
       </p>
-      <a href="#">Learn More</a>
+      <a href="https://bulandihub.com/">Explore Our Services</a>
     </div>
   );
 }
