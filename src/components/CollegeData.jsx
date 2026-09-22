@@ -9,7 +9,7 @@ function CollegeData({ collegeData }) {
             borderBottom: "2px solid #000",
             borderRadius: "10px",
             padding: "20px",
-            width: "400px",
+            width: "300px",
           }}
         >
           <li>{college.name}</li>

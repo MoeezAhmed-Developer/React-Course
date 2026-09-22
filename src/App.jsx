@@ -82,7 +82,7 @@ function App() {
       <CitiesDisplay /> <hr />
       <ReuseLoop /> <hr />
       <Clock /> <hr />
-      <NestedLopp />
+      <NestedLopp /> <hr />
     </>
   );
 }
