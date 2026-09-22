@@ -34,6 +34,7 @@ import CssModule from "./components/CssModule";
 import StyledComponent from "./components/StyledComponent";
 import BootstrapCss from "./components/BootstrapCss";
 import StaticExample from "./components/Modal";
+import Example from "./components/DemoModal";
 
 function App() {
   let name = "Moeez";
@@ -96,6 +97,7 @@ function App() {
       <StyledComponent /> <hr />
       <BootstrapCss /> <hr />
       <StaticExample /> <hr />
+      <Example />
     </>
   );
 }
