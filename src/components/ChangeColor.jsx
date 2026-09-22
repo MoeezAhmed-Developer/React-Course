@@ -1,6 +1,5 @@
 import { useState } from "react";
 import ClockTime from "./ClockTime";
-import Clock from "./Clock";
 
 function ChangeColor() {
   const [color, setColor] = useState("white");
@@ -12,7 +11,6 @@ function ChangeColor() {
         <option value="blue">Blue</option>
         <option value="red">Red</option>
       </select>
-      {/* <Clock /> */}
       <ClockTime color={color} />
     </div>
   );
