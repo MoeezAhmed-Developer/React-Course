@@ -1,45 +1,7 @@
 * {
-  /* margin: 0;
-  padding: 0; */
   font-family: "DM Sans", sans-serif;
 }
 
 .img {
   width: 300px;
-}
-
-.navbar {
-  background-color: #001542;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 100px;
-  align-items: center;
-}
-
-.site-logo a {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 700;
-  color: #ffb30d;
-}
-
-.navbar ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-.navbar ul li {
-  list-style-type: none;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  color: #fff;
-  transition: color 0.3s ease;
-}
-
-.navbar ul li a:hover {
-  color: #ffb30d;
 }
