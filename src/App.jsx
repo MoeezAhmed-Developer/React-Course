@@ -61,7 +61,7 @@ function App() {
       <hr />
       <Student />
       <hr />
-      <User name="Moeez" /> <hr />
+      <User name="Moeez" /> <hr /> <hr />
       <Wrapper color="orange">
         <h1>Hello User</h1>
       </Wrapper>
