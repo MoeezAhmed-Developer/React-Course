@@ -72,7 +72,7 @@ function App() {
       <TestComponent />
       <hr />
       <Radio />
-      <Dropdown />
+      <Dropdown /> <hr />
     </>
   );
 }
