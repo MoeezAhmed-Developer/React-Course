@@ -12,11 +12,11 @@ function CollegeData({ collegeData }) {
             width: "300px",
           }}
         >
-          <li>{college.name}</li>
+          <li>College Name: {college.name}</li>
           <ul>
-            <li>{college.city}</li>
-            <li>{college.website}</li>
-            <li>Students Name:</li>
+            <li>College City: {college.city}</li>
+            <li>College Website: {college.website}</li>
+            <li>Students Name: </li>
             {college.students.map((student, idx) => (
               <ul
                 key={idx}
