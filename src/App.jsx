@@ -69,7 +69,7 @@ function App() {
         <h1>Hello React JS</h1>
       </Wrapper>
       <hr />
-      <InputField />
+      {/* <InputField /> */}
       {/* <Controller /> */}
       <Skills /> <hr />
       <TestComponent />
