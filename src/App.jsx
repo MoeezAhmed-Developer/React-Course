@@ -70,7 +70,7 @@ function App() {
       </Wrapper>
       <hr />
       <InputField />
-      <Controller />
+      {/* <Controller /> */}
       <Skills /> <hr />
       <TestComponent />
       <hr />
