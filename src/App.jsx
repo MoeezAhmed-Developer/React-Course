@@ -82,8 +82,7 @@ function App() {
       <Loop /> <hr />
       <CitiesDisplay /> <hr />
       <ReuseLoop /> <hr />
-      <Clock />
-      {/* <ClockTime /> */}
+      <Clock /> <hr />
     </>
   );
 }
