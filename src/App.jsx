@@ -36,6 +36,7 @@ import BootstrapCss from "./components/BootstrapCss";
 import StaticExample from "./components/Modal";
 import Example from "./components/DemoModal";
 import CardExample from "./components/BootstrapCard";
+import Carousal from "./components/Carousal";
 
 function App() {
   let name = "Moeez";
@@ -100,6 +101,7 @@ function App() {
       <StaticExample /> <hr />
       <Example /> <hr />
       <CardExample /> <hr />
+      <Carousal />
     </>
   );
 }
