@@ -26,6 +26,7 @@ import Header from "./components/Header";
 import PropsUseEffect from "./components/PropsUseEffect";
 import InlineStyle from "./components/InlineStyle";
 import DynamicCondInlineStyle from "./components/DCInlineStyle";
+import ExternalStyle from "./components/ExternalStyle";
 
 function App() {
   // let x = 0;
@@ -94,7 +95,8 @@ function App() {
       <UseEffectCount /> <hr />
       <PropsUseEffect /> <hr />
       <InlineStyle /> <hr />
-      <DynamicCondInlineStyle />
+      <DynamicCondInlineStyle /> <hr />
+      <ExternalStyle /> <hr />
     </>
   );
 }
