@@ -19,6 +19,7 @@ import CitiesDisplay from "./components/Cities";
 import ReuseLoop from "./components/ReuseLoop";
 import Clock from "./components/Clock";
 import ClockTime from "./components/ClockTime";
+import NestedLopp from "./components/NestedLoop";
 
 function App() {
   let x = 0;
@@ -74,15 +75,14 @@ function App() {
       {/* <InputField /> */}
       {/* <Controller /> */}
       <Skills /> <hr />
-      <TestComponent />
-      <hr />
-      <Radio />
-      <Dropdown />
-      <hr />
+      <TestComponent /> <hr />
+      <Radio /> <hr />
+      <Dropdown /> <hr />
       <Loop /> <hr />
       <CitiesDisplay /> <hr />
       <ReuseLoop /> <hr />
       <Clock /> <hr />
+      <NestedLopp />
     </>
   );
 }
