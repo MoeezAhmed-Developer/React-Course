@@ -22,7 +22,7 @@ import ClockTime from "./components/ClockTime";
 import NestedLopp from "./components/NestedLoop";
 
 function App() {
-  let x = 0;
+  // let x = 0;
   let name = "Moeez";
   let age = 20;
   let email = "react@test.com";
