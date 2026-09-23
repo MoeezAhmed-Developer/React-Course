@@ -41,6 +41,7 @@ import AlertComponent from "./components/AlertComp";
 import UseRefComponent from "./components/UseRefComponent";
 import UnControlledComponent from "./components/UnControlledComp";
 import ForwardRef from "./components/ForwardRef";
+import UseFormHooks from "./components/UseFormHooks";
 
 function App() {
   let name = "Moeez";
@@ -110,6 +111,7 @@ function App() {
       <UseRefComponent /> <hr />
       <UnControlledComponent /> <hr />
       <ForwardRef /> <hr />
+      <UseFormHooks /> <hr />
     </>
   );
 }
