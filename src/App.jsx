@@ -38,6 +38,7 @@ import Example from "./components/DemoModal";
 import CardExample from "./components/BootstrapCard";
 import Carousal from "./components/Carousal";
 import AlertComponent from "./components/AlertComp";
+import UseRefComponent from "./components/UseRefComponent";
 
 function App() {
   let name = "Moeez";
@@ -104,6 +105,7 @@ function App() {
       <CardExample /> <hr />
       <Carousal /> <hr />
       <AlertComponent /> <hr />
+      <UseRefComponent />
     </>
   );
 }
