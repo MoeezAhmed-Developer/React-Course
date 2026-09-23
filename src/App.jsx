@@ -114,7 +114,7 @@ function App() {
       <UnControlledComponent /> <hr />
       <ForwardRef /> <hr />
       <UseFormHooks /> <hr />
-      <SignUpComponent />
+      <SignUpComponent /> <hr />
     </>
   );
 }
