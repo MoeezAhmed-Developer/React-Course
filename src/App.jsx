@@ -42,6 +42,8 @@ import UseRefComponent from "./components/UseRefComponent";
 import UnControlledComponent from "./components/UnControlledComp";
 import ForwardRef from "./components/ForwardRef";
 import UseFormHooks from "./components/UseFormHooks";
+import SignUp from "./components/SignupUserComp";
+import SignUpComponent from "./components/SignupUserComp";
 
 function App() {
   let name = "Moeez";
@@ -112,6 +114,7 @@ function App() {
       <UnControlledComponent /> <hr />
       <ForwardRef /> <hr />
       <UseFormHooks /> <hr />
+      <SignUpComponent />
     </>
   );
 }
