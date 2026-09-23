@@ -1,5 +1,8 @@
 function UseFormHooks() {
-  // func
+  async function handleSubmit() {
+    await new Promise((res) => setTimeout(res, 2000));
+    console.log("submit");
+  }
   return (
     <div>
       <h1>useFormStatus Hook in React</h1>
