@@ -44,6 +44,7 @@ import ForwardRef from "./components/ForwardRef";
 import UseFormHooks from "./components/UseFormHooks";
 import SignUp from "./components/SignupUserComp";
 import SignUpComponent from "./components/SignupUserComp";
+import UseTransition from "./components/UseTransition";
 
 function App() {
   let name = "Moeez";
@@ -115,6 +116,7 @@ function App() {
       <ForwardRef /> <hr />
       <UseFormHooks /> <hr />
       <SignUpComponent /> <hr />
+      <UseTransition /> <hr />
     </>
   );
 }
