@@ -1,18 +1,44 @@
-<!-- # React + Vite
+# React Course
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A practical React.js learning project focused on building a strong foundation in modern React development.
 
-Currently, two official plugins are available:
+## Topics Covered
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React Fundamentals
+- JSX
+- Components
+- Props
+- State
+- Event Handling
+- Conditional Rendering
+- Lists and Keys
+- Forms
+- Controlled Components
+- Uncontrolled Components
+- `useState`
+- `useRef`
+- React Hooks
+- React Router
+- Component-Based Development
 
-## React Compiler
+## Project Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Install dependencies:
 
-## Expanding the Oxlint configuration
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project. -->
+Start the development server:
 
-React Course
+npm run dev
+
+Build the project:
+
+npm run build
+
+## Purpose
+
+This repository contains practical examples and exercises created while learning React.js, with a focus on understanding concepts through hands-on development.
+
+```
+
+```
