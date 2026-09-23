@@ -25,20 +25,22 @@ A practical React.js learning project focused on building a strong foundation in
 
 Install dependencies:
 
+```bash
 npm install
+```
 
 Start the development server:
 
+```bash
 npm run dev
+```
 
 Build the project:
 
+```bash
 npm run build
+```
 
 ## Purpose
 
 This repository contains practical examples and exercises created while learning React.js, with a focus on understanding concepts through hands-on development.
-
-```
-
-```
