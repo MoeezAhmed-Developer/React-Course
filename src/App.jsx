@@ -40,6 +40,7 @@ import Carousal from "./components/Carousal";
 import AlertComponent from "./components/AlertComp";
 import UseRefComponent from "./components/UseRefComponent";
 import UnControlledComponent from "./components/UnControlledComp";
+import ForwardRef from "./components/ForwardRef";
 
 function App() {
   let name = "Moeez";
@@ -106,8 +107,9 @@ function App() {
       <CardExample /> <hr />
       <Carousal /> <hr />
       <AlertComponent /> <hr />
-      <UseRefComponent />
-      <UnControlledComponent />
+      <UseRefComponent /> <hr />
+      <UnControlledComponent /> <hr />
+      <ForwardRef /> <hr />
     </>
   );
 }
