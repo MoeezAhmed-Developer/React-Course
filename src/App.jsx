@@ -47,6 +47,7 @@ import SignUpComponent from "./components/SignupUserComp";
 import UseTransition from "./components/UseTransition";
 import PureComponent from "./components/PureComponent";
 import ShowHideComponent from "./components/ShowHideComp";
+import DerivedState from "./components/DerivedState";
 
 function App() {
   let name = "Moeez";
@@ -121,6 +122,7 @@ function App() {
       <UseTransition /> <hr />
       <PureComponent /> <hr />
       <ShowHideComponent /> <hr />
+      <DerivedState />
     </>
   );
 }
