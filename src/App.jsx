@@ -48,6 +48,7 @@ import UseTransition from "./components/UseTransition";
 import PureComponent from "./components/PureComponent";
 import ShowHideComponent from "./components/ShowHideComp";
 import DerivedState from "./components/DerivedState";
+import LiftUpState from "./components/LiftUpState";
 
 function App() {
   let name = "Moeez";
@@ -122,7 +123,8 @@ function App() {
       <UseTransition /> <hr />
       <PureComponent /> <hr />
       <ShowHideComponent /> <hr />
-      <DerivedState />
+      <DerivedState /> <hr />
+      <LiftUpState /> <hr />
     </>
   );
 }

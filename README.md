@@ -41,6 +41,6 @@ Build the project:
 npm run build
 ```
 
-## Purpose
+### Purpose
 
 This repository contains practical examples and exercises created while learning React.js, with a focus on understanding concepts through hands-on development.
