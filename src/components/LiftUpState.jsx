@@ -9,6 +9,9 @@ function LiftUpState() {
       <h1>LiftUp state in React</h1>
       <AddUser setUser={setUser} />
       <DisplayUser user={user} />
+      <button>
+        <i className="uil uil-home"></i>
+      </button>
     </div>
   );
 }
