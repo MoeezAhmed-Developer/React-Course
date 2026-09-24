@@ -46,6 +46,7 @@ import SignUp from "./components/SignupUserComp";
 import SignUpComponent from "./components/SignupUserComp";
 import UseTransition from "./components/UseTransition";
 import PureComponent from "./components/PureComponent";
+import ShowHideComponent from "./components/ShowHideComp";
 
 function App() {
   let name = "Moeez";
@@ -119,6 +120,7 @@ function App() {
       <SignUpComponent /> <hr />
       <UseTransition /> <hr />
       <PureComponent /> <hr />
+      <ShowHideComponent /> <hr />
     </>
   );
 }
