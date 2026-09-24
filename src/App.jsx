@@ -45,6 +45,7 @@ import UseFormHooks from "./components/UseFormHooks";
 import SignUp from "./components/SignupUserComp";
 import SignUpComponent from "./components/SignupUserComp";
 import UseTransition from "./components/UseTransition";
+import PureComponent from "./components/PureComponent";
 
 function App() {
   let name = "Moeez";
@@ -117,6 +118,7 @@ function App() {
       <UseFormHooks /> <hr />
       <SignUpComponent /> <hr />
       <UseTransition /> <hr />
+      <PureComponent /> <hr />
     </>
   );
 }
