@@ -18,7 +18,6 @@ import Loop from "./components/Loop";
 import CitiesDisplay from "./components/Cities";
 import ReuseLoop from "./components/ReuseLoop";
 import Clock from "./components/Clock";
-// import ClockTime from "./components/ClockTime";
 import NestedLopp from "./components/NestedLoop";
 import Welcome from "./components/ClassBasedComponent";
 import UseEffectCount from "./components/UseEffectCount";
@@ -35,14 +34,11 @@ import StyledComponent from "./components/StyledComponent";
 import BootstrapCss from "./components/BootstrapCss";
 import StaticExample from "./components/Modal";
 import Example from "./components/DemoModal";
-import CardExample from "./components/BootstrapCard";
-import Carousal from "./components/Carousal";
-import AlertComponent from "./components/AlertComp";
+// import CardExample from "./components/BootstrapCard";
 import UseRefComponent from "./components/UseRefComponent";
 import UnControlledComponent from "./components/UnControlledComp";
 import ForwardRef from "./components/ForwardRef";
 import UseFormHooks from "./components/UseFormHooks";
-import SignUp from "./components/SignupUserComp";
 import SignUpComponent from "./components/SignupUserComp";
 import UseTransition from "./components/UseTransition";
 import PureComponent from "./components/PureComponent";
@@ -112,9 +108,6 @@ function App() {
       <BootstrapCss /> <hr />
       <StaticExample /> <hr />
       <Example /> <hr />
-      <CardExample /> <hr />
-      <Carousal /> <hr />
-      <AlertComponent /> <hr />
       <UseRefComponent /> <hr />
       <UnControlledComponent /> <hr />
       <ForwardRef /> <hr />
