@@ -47,6 +47,7 @@ import DerivedState from "./components/DerivedState";
 import LiftUpState from "./components/LiftUpState";
 import UpdatingObject from "./components/UpdatingObject";
 import UpdatingArray from "./components/UpdatingArray";
+import UseActionState from "./components/UseActionState";
 
 function App() {
   let name = "Moeez";
@@ -122,6 +123,7 @@ function App() {
       <LiftUpState /> <hr />
       <UpdatingObject /> <hr />
       <UpdatingArray /> <hr />
+      <UseActionState /> <hr />
     </>
   );
 }
