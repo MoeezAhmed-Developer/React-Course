@@ -7,6 +7,14 @@ function UseActionState() {
 
     await new Promise((res) => setTimeout(res, 3000));
 
+    if (!name) {
+      return { err: "Please fill your name" };
+    }
+
+    if (!password) {
+      return { err: "Please fill your password" };
+    }
+
     if (name && password) {
       return { message: "Form submitted", name, password };
     } else {
