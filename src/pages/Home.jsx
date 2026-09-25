@@ -12,6 +12,8 @@ import Controller from "../components/Controller";
 import Student from "../components/Student";
 
 function HomePage() {
+  document.title = "Home | React";
+
   let name = "Moeez";
   let age = 20;
   let email = "react@test.com";
