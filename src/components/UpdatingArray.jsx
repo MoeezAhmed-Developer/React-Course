@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function UpdatingArray() {
-  const [data, setData] = useState(["Moeez", "Karachi", "Pakistan"]);
+  const [data, setData] = useState(["Moeez", ["Karachi", "Pakistan"]]);
 
   const handleName = (value) => {
     data[0] = value;
@@ -9,12 +9,12 @@ function UpdatingArray() {
   };
 
   const handleCity = (value) => {
-    data[1] = value;
+    data[1][0] = value;
     setData([...data]);
   };
 
   const handleCountry = (value) => {
-    data[2] = value;
+    data[1][1] = value;
     setData([...data]);
   };
 
@@ -39,8 +39,8 @@ function UpdatingArray() {
       />
 
       <h2>Name: {data[0]}</h2>
-      <h2>City: {data[1]}</h2>
-      <h2>Country: {data[2]}</h2>
+      <h2>City: {data[1][0]}</h2>
+      <h2>Country: {data[1][1]}</h2>
     </div>
   );
 }
