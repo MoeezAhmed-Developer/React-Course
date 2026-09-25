@@ -45,6 +45,7 @@ import PureComponent from "./components/PureComponent";
 import ShowHideComponent from "./components/ShowHideComp";
 import DerivedState from "./components/DerivedState";
 import LiftUpState from "./components/LiftUpState";
+import UpdatingObject from "./components/UpdatingObject";
 
 function App() {
   let name = "Moeez";
@@ -118,6 +119,7 @@ function App() {
       <ShowHideComponent /> <hr />
       <DerivedState /> <hr />
       <LiftUpState /> <hr />
+      <UpdatingObject /> <hr />
     </>
   );
 }
