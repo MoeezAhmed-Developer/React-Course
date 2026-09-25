@@ -46,6 +46,7 @@ import ShowHideComponent from "./components/ShowHideComp";
 import DerivedState from "./components/DerivedState";
 import LiftUpState from "./components/LiftUpState";
 import UpdatingObject from "./components/UpdatingObject";
+import UpdatingArray from "./components/UpdatingArray";
 
 function App() {
   let name = "Moeez";
@@ -120,6 +121,7 @@ function App() {
       <DerivedState /> <hr />
       <LiftUpState /> <hr />
       <UpdatingObject /> <hr />
+      <UpdatingArray /> <hr />
     </>
   );
 }
