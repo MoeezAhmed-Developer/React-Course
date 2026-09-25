@@ -1,24 +1,25 @@
+import { Link } from "react-router";
 import "../css/header.css";
 
 function Header() {
   return (
     <header className="navbar">
       <div className="site-logo">
-        <a href="/">React Page</a>
+        <Link to={"/"}>React Page</Link>
       </div>
       <nav>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link to={"/"}>Home</Link>
           </li>
           <li>
-            <a href="#service">Services</a>
+            <Link to={"/service"}>Services</Link>
           </li>
           <li>
-            <a href="#about">About</a>
+            <Link to={"/about"}>About</Link>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <Link to={"/others"}>Others</Link>
           </li>
         </ul>
       </nav>
