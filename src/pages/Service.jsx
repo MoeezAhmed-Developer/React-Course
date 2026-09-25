@@ -13,6 +13,8 @@ import UseEffectCount from "../components/UseEffectCount";
 import PropsUseEffect from "../components/PropsUseEffect";
 
 function ServicePage() {
+  document.title = "Services | React";
+
   return (
     <div>
       <Controller /> <hr />
@@ -27,7 +29,7 @@ function ServicePage() {
       <NestedLopp /> <hr />
       <Welcome /> <hr />
       <UseEffectCount /> <hr />
-      <PropsUseEffect /> <hr />{" "}
+      <PropsUseEffect /> <hr />
     </div>
   );
 }

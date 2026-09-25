@@ -10,6 +10,7 @@ import UseIdHook from "../components/UseId";
 import ContextApi from "../components/context-api/ContextApi";
 
 function OtherPage() {
+  document.title = "Others | React";
   return (
     <div>
       <UseTransition /> <hr />

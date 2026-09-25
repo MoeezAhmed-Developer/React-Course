@@ -34,7 +34,7 @@ function AboutPage() {
       <UnControlledComponent /> <hr />
       <ForwardRef /> <hr />
       <UseFormHooks /> <hr />
-      <SignUpComponent /> <hr />{" "}
+      <SignUpComponent /> <hr />
     </div>
   );
 }
