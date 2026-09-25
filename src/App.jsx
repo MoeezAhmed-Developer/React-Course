@@ -48,6 +48,7 @@ import LiftUpState from "./components/LiftUpState";
 import UpdatingObject from "./components/UpdatingObject";
 import UpdatingArray from "./components/UpdatingArray";
 import UseActionState from "./components/UseActionState";
+import UseIdHook from "./components/useId";
 
 function App() {
   let name = "Moeez";
@@ -124,6 +125,7 @@ function App() {
       <UpdatingObject /> <hr />
       <UpdatingArray /> <hr />
       <UseActionState /> <hr />
+      <UseIdHook /> <hr />
     </>
   );
 }
