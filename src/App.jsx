@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router";
+import { Routes, Route } from "react-router";
 import Header from "./components/Header";
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/About";
@@ -8,7 +8,7 @@ import OtherPage from "./pages/Other";
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
