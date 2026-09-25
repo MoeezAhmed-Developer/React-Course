@@ -16,6 +16,7 @@ import UseFormHooks from "../components/UseFormHooks";
 import SignUpComponent from "../components/SignupUserComp";
 
 function AboutPage() {
+  document.title = "About | React";
   return (
     <div>
       <InlineStyle /> <hr />

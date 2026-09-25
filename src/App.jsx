@@ -8,7 +8,7 @@ import OtherPage from "./pages/Other";
 function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
