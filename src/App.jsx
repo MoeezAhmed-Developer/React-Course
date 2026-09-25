@@ -49,6 +49,7 @@ import UpdatingObject from "./components/UpdatingObject";
 import UpdatingArray from "./components/UpdatingArray";
 import UseActionState from "./components/UseActionState";
 import UseIdHook from "./components/UseId";
+import ContextApi from "./components/context-api/ContextApi";
 
 function App() {
   let name = "Moeez";
@@ -126,6 +127,7 @@ function App() {
       <UpdatingArray /> <hr />
       <UseActionState /> <hr />
       <UseIdHook /> <hr />
+      <ContextApi /> <hr />
     </>
   );
 }
