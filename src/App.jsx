@@ -5,6 +5,8 @@ import AboutPage from "./pages/About";
 import ServicePage from "./pages/Service";
 import OtherPage from "./pages/Other";
 import PageNotFound from "./pages/PageNotFound";
+import Users from "./pages/Users";
+import UserDetails from "./pages/UserDetails";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/service" element={<ServicePage />} />
         <Route path="/pk/others" element={<OtherPage />} />
+        <Route path="/users" element={<Users />} />
+        <Route path="/user/:id" element={<UserDetails />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </>

@@ -5,21 +5,24 @@ function Header() {
   return (
     <header className="navbar">
       <div className="site-logo">
-        <Link to={"/"}>React Page</Link>
+        <Link to="/">React Page</Link>
       </div>
       <nav>
         <ul>
           <li>
-            <Link to={"/"}>Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to={"/service"}>Services</Link>
+            <Link to="/service">Services</Link>
           </li>
           <li>
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to={"/pk/others"}>Others</Link>
+            <Link to="/pk/others">Others</Link>
+          </li>
+          <li>
+            <Link to="/users">Users</Link>
           </li>
         </ul>
       </nav>
