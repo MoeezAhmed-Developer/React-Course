@@ -10,6 +10,7 @@ import UseIdHook from "../components/UseId";
 import ContextApi from "../components/context-api/ContextApi";
 import TailwindComponent from "../components/TailwindComp";
 import GetApi from "../components/GetApi";
+import GetProductsApi from "../components/GetProductsApi";
 
 function OtherPage() {
   document.title = "Others | React";
@@ -27,6 +28,7 @@ function OtherPage() {
       <ContextApi /> <hr />
       <TailwindComponent /> <hr />
       <GetApi /> <hr />
+      <GetProductsApi /> <hr />
     </div>
   );
 }

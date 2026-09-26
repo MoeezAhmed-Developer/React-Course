@@ -1,4 +1,4 @@
-import { useEffect, useState, useTransition } from "react";
+import { useState, useTransition } from "react";
 
 export default function GetApi() {
   const [products, setProducts] = useState([]);
