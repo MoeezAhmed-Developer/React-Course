@@ -28,13 +28,11 @@ function Users() {
     <div>
       <h1>Users List Page</h1>
       {userData.map((user) => (
-        <Link
-          to={`/user/${user.id}`}
-          style={{ display: "block" }}
-          key={user.id}
-        >
-          {user.name}
-        </Link>
+        <div>
+          <Link to={`/user/${user.id}`} key={user.id}>
+            {user.name}
+          </Link>
+        </div>
       ))}
     </div>
   );

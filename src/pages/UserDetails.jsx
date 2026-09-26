@@ -5,7 +5,8 @@ export default function UserDetails() {
 
   return (
     <div>
-      <h1>User {params.id}</h1>
+      <h1>User Details Page</h1>
+      <h2>User id is: {params.id}</h2>
       <Link to="/users">Back</Link>
     </div>
   );
