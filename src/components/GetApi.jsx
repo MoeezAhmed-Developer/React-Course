@@ -4,10 +4,6 @@ export default function GetApi() {
   const [products, setProducts] = useState([]);
   const [pending, setTransition] = useTransition();
 
-  //   useEffect(() => {
-  //     GetProducts();
-  //   }, []);
-
   const GetProducts = () => {
     setTransition(async () => {
       const response = await fetch("https://dummyjson.com/products");
@@ -19,7 +15,7 @@ export default function GetApi() {
   return (
     <div>
       <h1>Fetch Products Data from API</h1>
-      <button onClick={GetProducts} disabled={pending}>
+      <button disabled={pending} onClick={GetProducts}>
         {pending ? "fetching..." : "Fetch Products"}
       </button>
       {products &&
@@ -28,9 +24,7 @@ export default function GetApi() {
             <li>Product Name: {product.title}</li>
             <ul>
               <li>Product Category: {product.category}</li>
-              <li>Price: {product.price}</li>
-              <li>Rating: {product.rating}</li>
-              <li>Stock: {product.stock}</li>
+              <li>Price: ${product.price}</li>
               <li>Brand: {product.brand}</li>
             </ul>
           </ul>
