@@ -33,3 +33,14 @@
 .navbar ul li a:hover {
   color: #ffb30d;
 }
+
+nav ul li .active {
+  font-weight: 800;
+  background-color: #ffb20dc2;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+
+nav ul li .active:hover {
+  color: #fff;
+}
