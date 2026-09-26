@@ -20,8 +20,9 @@ export default function GetProductsApi() {
       </button>
       <div
         style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(4, 1fr)",
+          display: "flex",
+          flexWrap: "wrap",
+          // gridTemplateColumns: "repeat(4, 1fr)",
           gap: "20px",
         }}
       >
