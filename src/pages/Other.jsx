@@ -8,6 +8,7 @@ import UpdatingArray from "../components/UpdatingArray";
 import UseActionState from "../components/UseActionState";
 import UseIdHook from "../components/UseId";
 import ContextApi from "../components/context-api/ContextApi";
+import TailwindComponent from "../components/TailwindComp";
 
 function OtherPage() {
   document.title = "Others | React";
@@ -23,6 +24,7 @@ function OtherPage() {
       <UseActionState /> <hr />
       <UseIdHook /> <hr />
       <ContextApi /> <hr />
+      <TailwindComponent /> <hr />
     </div>
   );
 }
