@@ -1,21 +1,27 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useTransition } from "react";
 
 export default function GetApi() {
   const [products, setProducts] = useState([]);
+  const [pending, setTransition] = useTransition();
 
-  useEffect(() => {
-    GetProducts();
-  }, []);
+  //   useEffect(() => {
+  //     GetProducts();
+  //   }, []);
 
-  const GetProducts = async () => {
-    const response = await fetch("https://dummyjson.com/products");
-    const data = await response.json();
-    setProducts(data.products);
+  const GetProducts = () => {
+    setTransition(async () => {
+      const response = await fetch("https://dummyjson.com/products");
+      const data = await response.json();
+      setProducts(data.products);
+    });
   };
 
   return (
     <div>
       <h1>Fetch Products Data from API</h1>
+      <button onClick={GetProducts} disabled={pending}>
+        {pending ? "fetching..." : "Fetch Products"}
+      </button>
       {products &&
         products.splice(0, 10).map((product) => (
           <ul key={product.id}>
