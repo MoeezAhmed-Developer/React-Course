@@ -11,6 +11,7 @@ import ContextApi from "../components/context-api/ContextApi";
 import TailwindComponent from "../components/TailwindComp";
 import GetApi from "../components/GetApi";
 import GetProductsApi from "../components/GetProductsApi";
+import UserList from "../components/UserList";
 
 function OtherPage() {
   document.title = "Others | React";
@@ -29,6 +30,7 @@ function OtherPage() {
       <TailwindComponent /> <hr />
       <GetApi /> <hr />
       <GetProductsApi /> <hr />
+      <UserList />
     </div>
   );
 }
