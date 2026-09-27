@@ -11,8 +11,10 @@ export default function UserList() {
     getUserData();
   }, []);
 
+  const url = "http://localhost:3000/users";
+
   const getUserData = async () => {
-    const response = await fetch("http://localhost:3000/users");
+    const response = await fetch(url);
     const data = await response.json();
     setUsers(data);
   };
@@ -40,6 +42,18 @@ export default function UserList() {
     alert(`New ${name} User Added `);
   };
 
+  const deleteUser = async (id) => {
+    const response = await fetch(`${url}/${id}`, {
+      method: "delete",
+    });
+    await response.json();
+
+    if (response.ok) {
+      alert(`User deleted`);
+      getUserData();
+    }
+  };
+
   return (
     <div>
       <h1>UserList</h1>
@@ -65,6 +79,9 @@ export default function UserList() {
           <li>{user.name}</li>
           <li>{user.age}</li>
           <li>{user.email}</li>
+          <li>
+            <button onClick={() => deleteUser(user.id)}>Delete</button>
+          </li>
         </ul>
       ))}
     </div>

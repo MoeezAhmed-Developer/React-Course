@@ -1,24 +1,6 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "Moeez",
-      "age": 20,
-      "email": "moeez@test.com"
-    },
-    {
-      "id": "2",
-      "name": "Hasan",
-      "age": 18,
-      "email": "hasan@test.com"
-    },
-    {
-      "id": "3",
-      "name": "Huzaifa",
-      "age": 16,
-      "email": "huzaifa@test.com"
-    },
-    {
       "name": "Ali",
       "age": "18",
       "email": "ali@test.com",
@@ -31,29 +13,10 @@
       "id": "yvmfr7sG-wI"
     },
     {
-      "name": "Farah",
-      "age": "38",
-      "email": "farah@test.com",
-      "id": "lQUY9-TIPuo"
-    },
-    {
-      "name": "george",
-      "age": "19",
-      "email": "george@test.com",
-      "id": "3aS67Q1gj68"
-    },
-    {
       "name": "Test",
-      "age": "65",
+      "age": "36",
       "email": "moeezahmed1012@gmail.com",
-      "id": "x6vFOO1RLAk"
-    },
-    {
-      "name": "Test1",
-      "age": "33",
-      "email": "test@tes.com",
-      "id": "YstRi7AjKOw"
+      "id": "8YwZadokYqc"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
