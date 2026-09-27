@@ -1,10 +1,10 @@
 {
   "users": [
     {
-      "name": "Ali",
-      "age": "18",
-      "email": "ali@test.com",
-      "id": "_ZM_MlHVkiU"
+      "name": "Moeez",
+      "age": "19",
+      "email": "moeezahmed1012@gmail.com",
+      "id": "BLwzRTU3EZY"
     },
     {
       "name": "Farah",
@@ -13,10 +13,17 @@
       "id": "yvmfr7sG-wI"
     },
     {
-      "name": "Test",
-      "age": "36",
-      "email": "moeezahmed1012@gmail.com",
-      "id": "8YwZadokYqc"
+      "name": "Hasan",
+      "age": "18",
+      "email": "hasan@test.com",
+      "id": "QTNBqkYeP8k"
+    },
+    {
+      "name": "Hasan Raza",
+      "age": "19",
+      "email": "hasan@gmail.com",
+      "id": "QnU5B8Dg4zU"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

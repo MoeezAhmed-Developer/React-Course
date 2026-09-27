@@ -30,7 +30,7 @@ function OtherPage() {
       <TailwindComponent /> <hr />
       <GetApi /> <hr />
       <GetProductsApi /> <hr />
-      <UserList />
+      <UserList /> <hr />
     </div>
   );
 }

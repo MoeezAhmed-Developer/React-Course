@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router";
 
 export default function UserList() {
   const [users, setUsers] = useState([]);
@@ -6,6 +7,8 @@ export default function UserList() {
   const [name, setName] = useState();
   const [age, setAge] = useState();
   const [email, setEmail] = useState();
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     getUserData();
@@ -40,6 +43,7 @@ export default function UserList() {
     await response.json();
 
     alert(`New ${name} User Added `);
+    getUserData();
   };
 
   const deleteUser = async (id) => {
@@ -52,6 +56,10 @@ export default function UserList() {
       alert(`User deleted`);
       getUserData();
     }
+  };
+
+  const editUser = (id) => {
+    navigate(`/edit/${id}`);
   };
 
   return (
@@ -81,6 +89,9 @@ export default function UserList() {
           <li>{user.email}</li>
           <li>
             <button onClick={() => deleteUser(user.id)}>Delete</button>
+          </li>
+          <li>
+            <button onClick={() => editUser(user.id)}>Edit</button>
           </li>
         </ul>
       ))}

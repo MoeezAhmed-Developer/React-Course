@@ -7,6 +7,8 @@ import OtherPage from "./pages/Other";
 import PageNotFound from "./pages/PageNotFound";
 import Users from "./pages/Users";
 import UserDetails from "./pages/UserDetails";
+// import EditPage from "./pages/EditPage";
+import EditPage from "./pages/EditPage";
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         <Route path="/pk/others" element={<OtherPage />} />
         <Route path="/users" element={<Users />} />
         <Route path="/users/user/:id/:name?" element={<UserDetails />} />
+        <Route path="/edit/:id" element={<EditPage />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </>
