@@ -60,7 +60,7 @@ export default function AdcValidation() {
           placeholder="Enter Password"
           name="password"
         />
-        <button disabled={data?.error}>
+        <button disabled={pending}>
           {pending ? "Logging in..." : "Login"}
         </button>
       </form>
