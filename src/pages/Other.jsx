@@ -13,6 +13,7 @@ import GetApi from "../components/GetApi";
 import GetProductsApi from "../components/GetProductsApi";
 import UserList from "../components/UserList";
 import SimpleValidation from "../components/SimpleValidation";
+import AdcValidation from "../components/AdvancedValidation";
 
 function OtherPage() {
   document.title = "Others | React";
@@ -33,6 +34,7 @@ function OtherPage() {
       <GetProductsApi /> <hr />
       <UserList /> <hr />
       <SimpleValidation /> <hr />
+      <AdcValidation /> <hr />
     </div>
   );
 }
