@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router";
 
 export default function UserDetails() {
+  document.title = "User Details Page";
   const params = useParams();
 
   return (

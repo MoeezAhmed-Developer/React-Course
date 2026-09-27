@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 
 function PageNotFound() {
+  document.title = "404 - Error";
   return (
     <div>
       <h1>404 - Page Not Found</h1>

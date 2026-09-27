@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router";
 
 export default function EditPage() {
+  document.title = "User Edit Page";
+
   const { id } = useParams();
 
   const [name, setName] = useState("");

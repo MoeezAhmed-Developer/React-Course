@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 
 function Users() {
+  document.title = "Users";
   const userData = [
     {
       id: 1,
