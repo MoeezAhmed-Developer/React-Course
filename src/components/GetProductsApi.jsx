@@ -5,11 +5,15 @@ export default function GetProductsApi() {
   const [pending, startTransition] = useTransition();
 
   const productsApi = () => {
-    startTransition(async () => {
-      const response = await fetch("https://dummyjson.com/carts");
-      const data = await response.json();
-      setProducts(data.carts);
-    });
+    try {
+      startTransition(async () => {
+        const response = await fetch("https://dummyjson.com/carts");
+        const data = await response.json();
+        setProducts(data.carts);
+      });
+    } catch (err) {
+      console.log("Internal server error");
+    }
   };
 
   return (
