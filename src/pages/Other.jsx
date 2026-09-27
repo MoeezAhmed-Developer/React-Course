@@ -12,6 +12,7 @@ import TailwindComponent from "../components/TailwindComp";
 import GetApi from "../components/GetApi";
 import GetProductsApi from "../components/GetProductsApi";
 import UserList from "../components/UserList";
+import SimpleValidation from "../components/SimpleValidation";
 
 function OtherPage() {
   document.title = "Others | React";
@@ -31,6 +32,7 @@ function OtherPage() {
       <GetApi /> <hr />
       <GetProductsApi /> <hr />
       <UserList /> <hr />
+      <SimpleValidation /> <hr />
     </div>
   );
 }
