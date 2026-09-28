@@ -16,6 +16,7 @@ import SimpleValidation from "../components/SimpleValidation";
 import AdcValidation from "../components/AdvancedValidation";
 import UseReducerHook from "../components/UseReducerHook";
 import LazyLoading from "../components/LazyLoading";
+import UseApi from "../components/UseApi";
 
 function OtherPage() {
   document.title = "Others | React";
@@ -39,6 +40,7 @@ function OtherPage() {
       <AdcValidation /> <hr />
       <UseReducerHook /> <hr />
       <LazyLoading /> <hr />
+      <UseApi /> <hr />
     </div>
   );
 }
