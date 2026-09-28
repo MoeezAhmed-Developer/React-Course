@@ -24,6 +24,7 @@ export default function UseReducerHook() {
           placeholder="Enter name"
           onChange={(evt) => dispatch({ val: evt.target.value, type: "name" })}
         />
+        <br />
         <input
           type="email"
           placeholder="Enter email"
@@ -31,11 +32,13 @@ export default function UseReducerHook() {
             dispatch({ val: evt.target.value, type: "password" })
           }
         />
+        <br />
         <input
           type="text"
           placeholder="Enter your city name"
           onChange={(evt) => dispatch({ val: evt.target.value, type: "city" })}
         />
+        <br />
         <input
           type="text"
           placeholder="Enter your address"
@@ -43,6 +46,7 @@ export default function UseReducerHook() {
             dispatch({ val: evt.target.value, type: "address" })
           }
         />
+        <br />
         <input
           type="text"
           placeholder="Enter nearest landmark"
@@ -50,6 +54,7 @@ export default function UseReducerHook() {
             dispatch({ val: evt.target.value, type: "landmark" })
           }
         />
+        <br />
         <button>Submit</button>
       </form>
 
