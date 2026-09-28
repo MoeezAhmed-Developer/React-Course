@@ -18,6 +18,7 @@ import UseReducerHook from "../components/UseReducerHook";
 import LazyLoading from "../components/LazyLoading";
 import UseApi from "../components/UseApi";
 import UseOptimistic from "../components/UseOptimistic";
+import ActivityComponent from "../components/ActivityComp";
 
 function OtherPage() {
   document.title = "Others | React";
@@ -43,6 +44,7 @@ function OtherPage() {
       <LazyLoading /> <hr />
       <UseApi /> <hr />
       <UseOptimistic /> <hr />
+      <ActivityComponent /> <hr />
     </div>
   );
 }
