@@ -19,6 +19,7 @@ import LazyLoading from "../components/LazyLoading";
 import UseApi from "../components/UseApi";
 import UseOptimistic from "../components/UseOptimistic";
 import ActivityComponent from "../components/ActivityComp";
+import UseEffectEvent from "../components/UseEffectEvent";
 
 function OtherPage() {
   document.title = "Others | React";
@@ -45,6 +46,7 @@ function OtherPage() {
       <UseApi /> <hr />
       <UseOptimistic /> <hr />
       <ActivityComponent /> <hr />
+      <UseEffectEvent /> <hr />
     </div>
   );
 }
