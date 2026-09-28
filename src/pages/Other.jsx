@@ -17,6 +17,7 @@ import AdcValidation from "../components/AdvancedValidation";
 import UseReducerHook from "../components/UseReducerHook";
 import LazyLoading from "../components/LazyLoading";
 import UseApi from "../components/UseApi";
+import UseOptimistic from "../components/UseOptimistic";
 
 function OtherPage() {
   document.title = "Others | React";
@@ -41,6 +42,7 @@ function OtherPage() {
       <UseReducerHook /> <hr />
       <LazyLoading /> <hr />
       <UseApi /> <hr />
+      <UseOptimistic /> <hr />
     </div>
   );
 }
