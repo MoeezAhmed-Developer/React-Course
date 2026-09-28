@@ -15,6 +15,7 @@ import UserList from "../components/UserList";
 import SimpleValidation from "../components/SimpleValidation";
 import AdcValidation from "../components/AdvancedValidation";
 import UseReducerHook from "../components/UseReducerHook";
+import LazyLoading from "../components/LazyLoading";
 
 function OtherPage() {
   document.title = "Others | React";
@@ -37,6 +38,7 @@ function OtherPage() {
       <SimpleValidation /> <hr />
       <AdcValidation /> <hr />
       <UseReducerHook /> <hr />
+      <LazyLoading /> <hr />
     </div>
   );
 }
